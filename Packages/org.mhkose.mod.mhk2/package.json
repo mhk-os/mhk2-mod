@@ -1,0 +1,11 @@
+{
+  "name": "org.mhkose.mod.mhk2",
+  "version": "1.0.0",
+  "displayName": "Moorhuhn Kart 2",
+  "description": "Moorhuhn Kart 2 for Moorhuhn Kart: Open Source Edition: 8 tracks, 7 drivers, karts, powerups and effects converted from the original game.",
+  "unity": "6000.6",
+  "license": "MIT",
+  "author": {
+    "name": "MHK:OSE"
+  }
+}
