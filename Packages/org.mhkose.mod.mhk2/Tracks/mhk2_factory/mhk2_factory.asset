@@ -27,43 +27,6 @@ MonoBehaviour:
   previewImage: {fileID: 2800000, guid: 37eeecb16ea7b44a3a71cd9c09f41b4d, type: 3}
   variant: 
   gravity: 0
-  aiSettings:
-  - leadingDistance: 300
-    leadingSpeedFactor: 0.7
-    normalSpeedFactor: 0.8
-    trailingDistance: 300
-    trailingSpeedFactor: 0.8
-    rankFactors:
-    - 1
-    - 0.95
-    - 0.9
-    - 0.8
-    - 0.7
-    - 0.6
-  - leadingDistance: 200
-    leadingSpeedFactor: 0.8
-    normalSpeedFactor: 0.9
-    trailingDistance: 200
-    trailingSpeedFactor: 0.95
-    rankFactors:
-    - 1
-    - 0.95
-    - 0.9
-    - 0.8
-    - 0.7
-    - 0.6
-  - leadingDistance: 100
-    leadingSpeedFactor: 0.8
-    normalSpeedFactor: 0.95
-    trailingDistance: 100
-    trailingSpeedFactor: 1
-    rankFactors:
-    - 1
-    - 0.95
-    - 0.9
-    - 0.8
-    - 0.7
-    - 0.6
   physics:
     overrideSlopeGravity: 0
     slopeGravityFactor: 1
