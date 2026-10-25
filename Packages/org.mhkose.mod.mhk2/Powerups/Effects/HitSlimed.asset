@@ -22,6 +22,7 @@ MonoBehaviour:
   - duration
   - attachedVfxPrefab
   - burnVisual
+  - modelTint
   duration: 2.8
   durationFromAnimation: 1
   refreshOnReapply: 1
@@ -76,5 +77,6 @@ MonoBehaviour:
   endSound: {fileID: 0}
   screenOverlay: {r: 1, g: 1, b: 1, a: 0}
   burnVisual: 0
+  modelTint: {r: 0.4, g: 1, b: 0.3, a: 1}
   endVfxPrefab: {fileID: 0}
   cameraFovBoost: 0
