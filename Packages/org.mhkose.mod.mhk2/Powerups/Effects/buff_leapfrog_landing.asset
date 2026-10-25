@@ -26,9 +26,10 @@ MonoBehaviour:
   modifiersMinSpeed: 0
   steeringMultiplier: 1
   gripMultiplier: 1
-  forwardImpulse: 4
+  forwardImpulse: 0
   velocityRetain: 1
   velocityDamping: 0
+  snapToTopSpeed: 1
   lockControls: 0
   forceThrottle: 0
   blockThrottle: 0

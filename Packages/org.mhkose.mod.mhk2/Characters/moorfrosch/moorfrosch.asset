@@ -20,7 +20,7 @@ MonoBehaviour:
   driverPrefab: {fileID: 6088551614922209567, guid: 382db37ae40914641ac84e0f4d9c80d5, type: 3}
   modelScale: 1
   portrait: {fileID: 2800000, guid: a9f57713829ca425092c09dc09139432, type: 3}
-  defaultKart: {fileID: 11400000, guid: 7e0f7fd5e6f8740dd85475ffdf9bf3b9, type: 2}
+  defaultKart: {fileID: 11400000, guid: e806793ef6dff459f9d364c63a3f6919, type: 2}
   specialPowerup: {fileID: 11400000, guid: c3a4fd3d92635ed58a3055400f3fa956, type: 2}
   animations:
   - role: 0
