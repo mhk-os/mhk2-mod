@@ -52,7 +52,7 @@ MonoBehaviour:
   dropClearOfChassis: 0
   dropGap: 0.1
   throwForward: 1
-  alwaysForward: 1
+  throwBackwards: 1
   throwSpeed: 32
   throwUpSpeed: 8
   inheritVelocity: 0.6

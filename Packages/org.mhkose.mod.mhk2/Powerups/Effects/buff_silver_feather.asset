@@ -17,16 +17,16 @@ MonoBehaviour:
   sourceGame: mhk2
   icon: {fileID: 0}
   hidden: 0
-  duration: 1.5
+  duration: 2.5
   durationFromAnimation: 0
   refreshOnReapply: 1
   exclusiveBuff: 0
-  accelerationMultiplier: 3
-  maxSpeedMultiplier: 1.08
+  accelerationMultiplier: 4
+  maxSpeedMultiplier: 1.5
   modifiersMinSpeed: 0
   steeringMultiplier: 1
   gripMultiplier: 1
-  forwardImpulse: 1.5
+  forwardImpulse: 2
   velocityRetain: 1
   velocityDamping: 0
   lockControls: 0
