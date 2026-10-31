@@ -5063,6 +5063,95 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3666793627611509958, guid: d24020bff4d61448f8cd86d53ce5ef8f, type: 3}
   m_PrefabInstance: {fileID: 1067105574}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1067836094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1067836095}
+  - component: {fileID: 1067836096}
+  m_Layer: 0
+  m_Name: Route 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1067836095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067836094}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1640682222}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1067836096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067836094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac479d19cd964ba4986d0814d808bf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MHK.Runtime::MHK.Race.TrackPath
+  closed: 0
+  showOnMinimap: 0
+  nodes:
+  - position: {x: -138.537, y: 33.42, z: 163.806}
+    width: 13.9
+    flags: 0
+  - position: {x: -142.58975, y: 31.828196, z: 175.58398}
+    width: 24.474989
+    flags: 0
+  - position: {x: -144.62978, y: 32.904434, z: 181.44885}
+    width: 13.844926
+    flags: 0
+  - position: {x: -146.6698, y: 33.84909, z: 187.3137}
+    width: 8.09558
+    flags: 0
+  - position: {x: -149.85182, y: 34.961803, z: 197.30148}
+    width: 2.863
+    flags: 0
+  - position: {x: -151.85179, y: 35.17986, z: 211.07907}
+    width: 4.716854
+    flags: 0
+  - position: {x: -150.88095, y: 35.545307, z: 219.01897}
+    width: 7.7343206
+    flags: 0
+  - position: {x: -145.9681, y: 35.67193, z: 228.95071}
+    width: 10.466359
+    flags: 0
+  - position: {x: -140.74535, y: 35.62278, z: 232.5071}
+    width: 9.890446
+    flags: 0
+  - position: {x: -140.26582, y: 35.13835, z: 240.73645}
+    width: 9.314531
+    flags: 0
+  - position: {x: -143.2777, y: 34.36499, z: 243.755}
+    width: 6.799522
+    flags: 0
+  - position: {x: -146.28957, y: 33.591625, z: 245.94827}
+    width: 4.2845125
+    flags: 0
+  - position: {x: -147.76807, y: 32.0449, z: 251.5952}
+    width: 1.7881922
+    flags: 0
+  - position: {x: -148.27872, y: 31.055452, z: 262.45395}
+    width: 9.19909
+    flags: 0
 --- !u!1 &1091500909
 GameObject:
   m_ObjectHideFlags: 0
@@ -7686,6 +7775,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616765530}
   m_Mesh: {fileID: 7609286696644933623, guid: 003592b0c1a3d478486f9bd61e9868c9, type: 2}
+--- !u!1 &1640682221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1640682222}
+  m_Layer: 0
+  m_Name: Routes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1640682222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640682221}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1067836095}
+  m_Father: {fileID: 2220692046207149577}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1653778803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12565,7 +12686,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1640682222}
   m_Father: {fileID: 1442143738068660122}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2245992665827981507
@@ -13818,7 +13940,7 @@ MonoBehaviour:
     width: 16.710049
     flags: 1
   - position: {x: 292.552, y: 60.304, z: 61.213}
-    width: 25.526169
+    width: 26.484514
     flags: 0
   - position: {x: 282.601, y: 59.973, z: 61.655}
     width: 27.63112
@@ -13953,19 +14075,10 @@ MonoBehaviour:
     width: 64.177376
     flags: 0
   - position: {x: 30.828, y: 57.104, z: -101.314}
-    width: 61.21609
-    flags: 0
-  - position: {x: 28.166, y: 56.956, z: -110.96}
-    width: 56.21196
-    flags: 0
-  - position: {x: 25.777, y: 56.841, z: -120.657}
-    width: 33.865288
-    flags: 0
-  - position: {x: 23.707, y: 56.808, z: -130.402}
-    width: 28.384663
+    width: 14.7227545
     flags: 0
   - position: {x: 21.878, y: 56.853, z: -140.196}
-    width: 23.84778
+    width: 14.85187
     flags: 0
   - position: {x: 20.154, y: 56.947, z: -150.031}
     width: 20.818518
@@ -14917,7 +15030,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a03737872414e878537083a7b01cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: MHK.Runtime::MHK.Race.TrackRuntime
-  path: {fileID: 5136147650700295072}
   startGrid:
   - {fileID: 3941028962382224732}
   - {fileID: 443989026112334390}
@@ -14932,7 +15044,6 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 4294963931
-  alternatePaths: []
   farClip: 1000
   backgroundColor: {r: 0.1255, g: 0.1725, b: 0.2235, a: 1}
 --- !u!33 &5660434190114503575

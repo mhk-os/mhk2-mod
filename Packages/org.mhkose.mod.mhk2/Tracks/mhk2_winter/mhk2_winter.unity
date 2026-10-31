@@ -6556,9 +6556,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: MHK.Runtime::MHK.Race.TrackPath
   closed: 0
-  showOnMinimap: 1
+  showOnMinimap: 0
   nodes:
-  - position: {x: -5.768074, y: 0.83376515, z: 2.264923}
+  - position: {x: -5.880001, y: 0.897, z: 2.1990051}
     width: 15.159051
     flags: 0
   - position: {x: -0.79174423, y: 1.0483401, z: 3.8826447}
@@ -6576,6 +6576,15 @@ MonoBehaviour:
   - position: {x: 21.408691, y: 0.5013999, z: -15.593155}
     width: 4.7748094
     flags: 0
+  - position: {x: 21.022934, y: 0.4916331, z: -17.424438}
+    width: 4.5713654
+    flags: 0
+  - position: {x: 22.27118, y: 0.4818663, z: -20.306778}
+    width: 4.367922
+    flags: 0
+  - position: {x: 25.843262, y: 0.4720995, z: -24.43795}
+    width: 4.746521
+    flags: 0
   - position: {x: 29.415344, y: 0.46233273, z: -25.020393}
     width: 5.1251197
     flags: 0
@@ -6588,7 +6597,7 @@ MonoBehaviour:
   - position: {x: 54.11286, y: 2.9377582, z: -63.675102}
     width: 5.4316416
     flags: 0
-  - position: {x: 57.5, y: 3.6397812, z: -70.91043}
+  - position: {x: 57.50238, y: 3.521034, z: -70.89909}
     width: 5.47543
     flags: 0
 --- !u!1001 &1447798015
@@ -15451,7 +15460,7 @@ Transform:
   m_GameObject: {fileID: 3540519507203436021}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.47, y: 0.15, z: 0.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24216,7 +24225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a03737872414e878537083a7b01cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: MHK.Runtime::MHK.Race.TrackRuntime
-  path: {fileID: 1892901749858665775}
   startGrid:
   - {fileID: 4530996099273200872}
   - {fileID: 4803156616229786338}
@@ -24231,7 +24239,6 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 4294963931
-  alternatePaths: []
   farClip: 600
   backgroundColor: {r: 0.1804, g: 0.2824, b: 0.5529, a: 1}
 --- !u!4 &8476493123528072504
