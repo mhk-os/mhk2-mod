@@ -12646,7 +12646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a03737872414e878537083a7b01cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: MHK.Runtime::MHK.Race.TrackRuntime
-  path: {fileID: 2451859269590773778}
   startGrid:
   - {fileID: 8850707369732942367}
   - {fileID: 1444409682307850926}
@@ -12661,8 +12660,6 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 4294963931
-  alternatePaths:
-  - {fileID: 2414941328054731539}
   farClip: 700
   backgroundColor: {r: 0.8, g: 0.7373, b: 0.6118, a: 1}
 --- !u!4 &2141015950990093423
@@ -12743,7 +12740,7 @@ MonoBehaviour:
   closed: 0
   showOnMinimap: 0
   nodes:
-  - position: {x: 249.25143, y: 35.701, z: -127.09978}
+  - position: {x: 250.63191, y: 38.84815, z: -127.19351}
     width: 9.295476
     flags: 0
   - position: {x: 233.81491, y: 37.559, z: -119.20933}
@@ -12872,7 +12869,7 @@ MonoBehaviour:
   - position: {x: -138.21187, y: -0.71297693, z: -127.05176}
     width: 11.923009
     flags: 0
-  - position: {x: -132.44727, y: 0.504, z: -115.27768}
+  - position: {x: -130.84659, y: -0.0025546546, z: -113.86362}
     width: 11.976009
     flags: 0
 --- !u!114 &2451859269590773778

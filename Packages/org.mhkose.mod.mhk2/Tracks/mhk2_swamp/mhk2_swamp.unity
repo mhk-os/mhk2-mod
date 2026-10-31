@@ -13749,6 +13749,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423926359}
   m_Mesh: {fileID: 6060410727848807055, guid: 7375ca4e446ca41c8a9e4987aee67653, type: 2}
+--- !u!1 &1429313660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1429313661}
+  m_Layer: 0
+  m_Name: Routes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1429313661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429313660}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1982544048}
+  m_Father: {fileID: 2807155431124975110}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1439585190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17939,6 +17971,86 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974716360}
   m_Mesh: {fileID: -2665367445475360897, guid: 7375ca4e446ca41c8a9e4987aee67653, type: 2}
+--- !u!1 &1982544047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1982544048}
+  - component: {fileID: 1982544049}
+  m_Layer: 0
+  m_Name: Route 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1982544048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982544047}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1429313661}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1982544049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982544047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac479d19cd964ba4986d0814d808bf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: MHK.Runtime::MHK.Race.TrackPath
+  closed: 0
+  showOnMinimap: 0
+  nodes:
+  - position: {x: 261.18, y: 3.486, z: 178.172}
+    width: 18.366304
+    flags: 0
+  - position: {x: 227.18182, y: 6.7509418, z: 190.22147}
+    width: 9.154924
+    flags: 0
+  - position: {x: 206.26671, y: 2.5627408, z: 198.87228}
+    width: 5.5407395
+    flags: 0
+  - position: {x: 201.03793, y: 2.5038583, z: 200.80281}
+    width: 5.19098
+    flags: 0
+  - position: {x: 195.80914, y: 2.4449759, z: 200.68094}
+    width: 8.648593
+    flags: 0
+  - position: {x: 190.58037, y: 2.3860936, z: 201.46446}
+    width: 7.153719
+    flags: 0
+  - position: {x: 185.3516, y: 2.3272111, z: 201.7394}
+    width: 6.479578
+    flags: 0
+  - position: {x: 164.43646, y: 2.2387593, z: 201.4162}
+    width: 8.378817
+    flags: 0
+  - position: {x: 157.92772, y: 4.64532, z: 200.83847}
+    width: 8.549892
+    flags: 0
+  - position: {x: 152.08043, y: 2.2954364, z: 201.44514}
+    width: 9.413974
+    flags: 0
+  - position: {x: 143.52135, y: 2.1503074, z: 203.45248}
+    width: 10.278055
+    flags: 0
 --- !u!1 &1985006556
 GameObject:
   m_ObjectHideFlags: 0
@@ -44628,7 +44740,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1429313661}
   m_Father: {fileID: 6777620354073986084}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2809314453245548992
@@ -75764,7 +75877,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1a03737872414e878537083a7b01cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: MHK.Runtime::MHK.Race.TrackRuntime
-  path: {fileID: 5025533090864073237}
   startGrid:
   - {fileID: 3985386064063745587}
   - {fileID: 730395135290688973}
@@ -75779,7 +75891,6 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 4294963931
-  alternatePaths: []
   farClip: 500
   backgroundColor: {r: 0.7686, g: 0.7804, b: 0.6784, a: 1}
 --- !u!33 &6077610394567811215
