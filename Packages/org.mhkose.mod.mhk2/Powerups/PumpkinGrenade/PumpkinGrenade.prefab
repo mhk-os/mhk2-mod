@@ -97,6 +97,7 @@ MonoBehaviour:
   splashPush: 8
   splashLift: 3
   blastHeight: 3
+  groundFire: {fileID: 7310654820195463201, guid: 16b6ea24861243c78fb03a1ebfabd934, type: 3}
   explosionVfx: {fileID: 6030721521503554282, guid: f8b584bcf79a24d759a5be9735575085, type: 3}
   debrisVfx: {fileID: 795210617218002684, guid: 2554544deb7f54ec49a993139b2c372b, type: 3}
   smokeVfx: {fileID: 5739532930821079632, guid: 14c1bc58385e046f5b0e1e8975c34dd5, type: 3}
