@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e125eaaa8243c8b3964fc5ee1a61aa, type: 3}
+  m_Name: mhk2.egypt.sandstorm
+  m_EditorClassIdentifier: MHK.Runtime::MHK.Modding.TrackOverlayDefinition
+  id: mhk2.egypt.sandstorm
+  displayName: 'Egypt: Sandstorm'
+  sourceGame: mhk2
+  icon: {fileID: 0}
+  hidden: 0
+  trackId: mhk2.egypt
+  optionId: core.sandstorm
+  isDefault: 0
+  scene:
+    asset: {fileID: 102900000, guid: 4324c656e187a4d0fa5ac3acb611114b, type: 3}
+    path: Packages/org.mhkose.mod.mhk2/Tracks/mhk2_egypt/mhk2_egypt.sandstorm.unity
+  contentVersion: 1
