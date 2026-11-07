@@ -22,7 +22,6 @@ MonoBehaviour:
   logo: {fileID: 2800000, guid: 711160d62093d4416a1684525b91c5f0, type: 3}
   menuMusic: {fileID: 8300000, guid: df978cfc4973a491495d9d048ea44cce, type: 3}
   uiClick: {fileID: 8300000, guid: 81d25b38b0c684824a04c863e22a403e, type: 3}
-  sharedPowerups: []
   itemBoxLook:
     model: {fileID: 1705531286402971890, guid: f607f1dbe0ebc41e1bbb3c69af20784a, type: 3}
     spinSpeed: 90
@@ -89,6 +88,37 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e3211ea917d8e48a8addd5eac05a9024, type: 2}
   - {fileID: 11400000, guid: c77b203bcb74f42f7b75d02a4c8a54da, type: 2}
   - {fileID: 11400000, guid: 1407e4e3478804563bd67b154294fd03, type: 2}
+  - {fileID: 11400000, guid: a549af5377d5842c8b496f8b35874d91, type: 2}
+  - {fileID: 11400000, guid: e0b63b7ba7f9948b2b4f6e09bd5ff1f8, type: 2}
+  - {fileID: 11400000, guid: c244260c1b42143bc833dd0959dee314, type: 2}
+  - {fileID: 11400000, guid: e8e514e3a73174bd3b3f1eea51ff0ad4, type: 2}
+  - {fileID: 11400000, guid: b8ac58fc401754fc69bd0b582191b895, type: 2}
+  - {fileID: 11400000, guid: 57c9c45c98aa0430ab1d87b9ba421223, type: 2}
+  - {fileID: 11400000, guid: 3b1adad5fe11b4a4792da7881621d406, type: 2}
+  - {fileID: 11400000, guid: 5a218fabb00244680bbe25e71436ec61, type: 2}
+  - {fileID: 11400000, guid: e28921613fa4f45b38ce605a066ddd41, type: 2}
+  - {fileID: 11400000, guid: 6caff12721e8d4ede948b29b6410cd38, type: 2}
+  - {fileID: 11400000, guid: 218ef85f46b77494c89f5f945a35e50f, type: 2}
+  - {fileID: 11400000, guid: f1b57001e731a40059af51aff702d61b, type: 2}
+  - {fileID: 11400000, guid: 5ca6a45ff22a1444db080b849874d042, type: 2}
+  - {fileID: 11400000, guid: 2c4c8a5d15c914d09913fd8afb04af05, type: 2}
+  - {fileID: 11400000, guid: 3838050a4c3e44693a4f89d18e28196d, type: 2}
+  - {fileID: 11400000, guid: 45a5babdd36984a969826b9dc962e264, type: 2}
+  - {fileID: 11400000, guid: 7292d57db302347fab18b7f1e09dd7e0, type: 2}
+  - {fileID: 11400000, guid: 370b3b30f593c47aaa3aa6d8b0e11c70, type: 2}
+  - {fileID: 11400000, guid: d55019b9231204289b25a9c66d53aad9, type: 2}
+  - {fileID: 11400000, guid: 71ecb175b8192401b8f0698e644c9157, type: 2}
+  - {fileID: 11400000, guid: 0a6fc4c257f7847eda0cf895d250a6e5, type: 2}
+  - {fileID: 11400000, guid: bfde658a3b9eb435f8c0786afa69231b, type: 2}
+  - {fileID: 11400000, guid: 1acf3844756284f188006ae45b673b0e, type: 2}
+  - {fileID: 11400000, guid: 7a579596c6084474d84973a5a314fe44, type: 2}
+  - {fileID: 11400000, guid: 0322469a7f091480093b7cbf4c9c02f3, type: 2}
+  - {fileID: 11400000, guid: b926f4be648364516a13195336ab8e97, type: 2}
+  - {fileID: 11400000, guid: 521964feba3d4477ea5d8b9ab6f2e480, type: 2}
+  - {fileID: 11400000, guid: 110e4b10839c24ff99fed1b28906e089, type: 2}
+  - {fileID: 11400000, guid: b6053eb972a774517a8f5c30c3423a06, type: 2}
+  - {fileID: 11400000, guid: a813b7bd270b242a7886f1fc081177bc, type: 2}
+  sdkApi: 0
   sdkVersion: 
   unityVersion: 
   buildTarget: 
