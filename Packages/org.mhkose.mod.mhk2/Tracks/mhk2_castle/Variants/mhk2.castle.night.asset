@@ -20,6 +20,7 @@ MonoBehaviour:
   trackId: mhk2.castle
   optionId: core.night
   isDefault: 1
+  noHeadlights: 1
   scene:
     asset: {fileID: 0}
     path: 

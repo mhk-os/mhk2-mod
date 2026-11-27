@@ -104,7 +104,7 @@ MonoBehaviour:
   armSound: {fileID: 0}
   triggerSound: {fileID: 8300000, guid: 100180f4396e14ba88741b61b477a203, type: 3}
   refusedSound: {fileID: 0}
-  expireSound: {fileID: 0}
+  expireSound: {fileID: 8300000, guid: 874eac6ea2e564940a6c1cc5c521a76b, type: 3}
   soundVolume: 1
 --- !u!1 &918874934663428292
 GameObject:

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: mhk2_kart4
   m_EditorClassIdentifier: MHK.Runtime::MHK.Modding.KartDefinition
   id: mhk2.kart4
-  displayName: Pink Kart
+  displayName: Purple Kart
   sourceGame: mhk2
   icon: {fileID: 2800000, guid: 2c9b2dc2598dd40e0837c4e50da695bc, type: 3}
   hidden: 0
