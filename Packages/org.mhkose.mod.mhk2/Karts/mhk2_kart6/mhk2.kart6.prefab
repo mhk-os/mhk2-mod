@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mhk2.kart6
       objectReference: {fileID: 0}
+    - target: {fileID: 3166528604882805405, guid: a9b6c7a62e9fb4d97b37e737f0c1b06d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c5a146f61d334ca387fe450fd04cf39, type: 2}
     - target: {fileID: 4802045138967722631, guid: a9b6c7a62e9fb4d97b37e737f0c1b06d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 

@@ -22,5 +22,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6ab4b9a74e6654f4aa8d02233d8906cb, type: 2}
   - {fileID: 11400000, guid: 6ffec51acf4a34809ab94c8c8d1526b8, type: 2}
   - {fileID: 11400000, guid: 589ec66d47584491abd8ffa01f7f5b58, type: 2}
+  variants:
+  - 
+  - 
+  - core.clear
+  - 
   lapsOverride: 3
   order: 20
