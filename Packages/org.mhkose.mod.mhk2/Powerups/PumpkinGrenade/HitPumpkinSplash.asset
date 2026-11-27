@@ -46,7 +46,7 @@ MonoBehaviour:
   freezeKart: 1
   spinTurns: 0
   upwardImpulse: 0
-  respawnOnEnd: 0
+  respawnOnEnd: 1
   respawnBackDistance: 15
   endOnRespawn: 0
   gravityMultiplier: 1
