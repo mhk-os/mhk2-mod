@@ -13,14 +13,19 @@ MonoBehaviour:
   m_Name: turtle
   m_EditorClassIdentifier: MHK.Runtime::MHK.Modding.CharacterDefinition
   id: mhk2.turtle
-  displayName: Kröt
+  displayName: "Kr\xF6t"
   sourceGame: mhk2
   icon: {fileID: 2800000, guid: 90ffce33213a44eab97abbe5a433f2d8, type: 3}
   hidden: 0
   driverPrefab: {fileID: 8672603216935730462, guid: c88c2c76e990843959409a7317c97dfc, type: 3}
   modelScale: 1
   portrait: {fileID: 2800000, guid: 90ffce33213a44eab97abbe5a433f2d8, type: 3}
-  defaultKart: {fileID: 11400000, guid: f5caef5b4201d449e88a9979f6e282b7, type: 2}
+  handReach: 0.28
+  seatOffset: {x: 0, y: 0, z: 0}
+  racesWithoutKart: 0
+  noKartOffset: {x: 0, y: 0, z: 0}
+  noKartScale: 1
+  defaultKart: {fileID: 11400000, guid: e806793ef6dff459f9d364c63a3f6919, type: 2}
   specialPowerup: {fileID: 11400000, guid: 0a40a4f141d2042cfba83827316d48b2, type: 2}
   animations:
   - role: 0

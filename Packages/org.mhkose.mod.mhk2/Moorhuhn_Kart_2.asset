@@ -37,6 +37,8 @@ MonoBehaviour:
   itemPickupSound: {fileID: 8300000, guid: cf49d574c2c4b4a8ebe64cb1c08876b7, type: 3}
   scratchSound: {fileID: 8300000, guid: fa7a0e38f9542469784f287c3470fdff, type: 3}
   offroadLoop: {fileID: 8300000, guid: 8220d56f9ae9c46e7bafdade139de05d, type: 3}
+  finishCheerSound: {fileID: 8300000, guid: f3d792504a364905a64d4dc0d29249bf, type: 3}
+  finishBooSound: {fileID: 8300000, guid: 9d8535a6b753437c996c9f628e9cce44, type: 3}
   content:
   - {fileID: 11400000, guid: 798794d06df694bad95bf31caf392113, type: 2}
   - {fileID: 11400000, guid: 549fa82b5d9c04df4aa6bf4293ab4b39, type: 2}

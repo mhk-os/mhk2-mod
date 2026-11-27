@@ -17,17 +17,14 @@ MonoBehaviour:
   sourceGame: mhk2
   icon: {fileID: 0}
   hidden: 0
-  reaction: {fileID: 11400000, guid: c70bb9cfcbf5f43aaba65f494f27895f, type: 2}
+  reaction: {fileID: 11400000, guid: 7553c8db7c3b54b02af265829c3c9f3b, type: 2}
   overrides:
-  - duration
-  - velocityRetain
-  - velocityDamping
-  - spinTurns
-  - characterAnimation
+  - respawnOnEnd
+  - dropsHeldItem
+  - cancelsBuffs
   - applySound
-  - burnVisual
-  duration: 1.4
-  durationFromAnimation: 0
+  duration: 2
+  durationFromAnimation: 1
   refreshOnReapply: 1
   exclusiveBuff: 0
   accelerationMultiplier: 1
@@ -36,18 +33,20 @@ MonoBehaviour:
   steeringMultiplier: 1
   gripMultiplier: 1
   forwardImpulse: 0
-  velocityRetain: 0.7
+  velocityRetain: 1
   velocityDamping: 0
-  lockControls: 1
+  snapToTopSpeed: 0
+  lockControls: 0
   forceThrottle: 0
   blockThrottle: 0
   blocksItemUse: 0
   invertSteering: 0
-  freezeKart: 0
-  spinTurns: 1
+  freezeKart: 1
+  spinTurns: 0
   upwardImpulse: 0
   respawnOnEnd: 0
   respawnBackDistance: 15
+  endOnRespawn: 0
   gravityMultiplier: 1
   landingEffect: {fileID: 0}
   endOnLanding: 0
@@ -68,7 +67,7 @@ MonoBehaviour:
   verticalScale: 1
   auraEffect: {fileID: 0}
   auraRadius: 2
-  attachedVfxPrefab: {fileID: 0}
+  attachedVfxPrefab: {fileID: 5739532930821079632, guid: 14c1bc58385e046f5b0e1e8975c34dd5, type: 3}
   attachToVisual: 0
   attachMount: 3
   opacity: 1
@@ -80,5 +79,22 @@ MonoBehaviour:
   endSound: {fileID: 0}
   screenOverlay: {r: 1, g: 1, b: 1, a: 0}
   burnVisual: 1
+  modelTint: {r: 1, g: 1, b: 1, a: 0}
+  hideWheels: 0
+  glitchVisual: 0
+  bodyBob:
+    height: 0
+    frequency: 6
+    shape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    sway: 0
+    pitch: 0
+    roll: 0
+    fadeIn: 0.1
+    fadeOut: 0.3
   endVfxPrefab: {fileID: 0}
   cameraFovBoost: 0
