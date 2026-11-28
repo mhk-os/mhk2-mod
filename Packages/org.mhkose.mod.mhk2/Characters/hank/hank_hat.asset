@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6a6bb2ded8d4c13b04b158ef03fc0b, type: 3}
+  m_Name: hank_hat
+  m_EditorClassIdentifier: MHK.Runtime::MHK.Modding.CosmeticDefinition
+  id: mhk2.cosmetic.hank_hat
+  displayName: Hard Hat
+  sourceGame: mhk2
+  icon: {fileID: 2800000, guid: b32d5cbeb1cfd44c09bada47477110da, type: 3}
+  hidden: 0
+  slot: 0
+  prefab: {fileID: 2706530637281595794, guid: 260380b84b1bc4165806706a15e663d3, type: 3}
+  offset: {x: 0, y: -0.010095012, z: 0}
+  fitWidth: 0.28689998
+  tintable: 1
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  unlockAchievement: 
