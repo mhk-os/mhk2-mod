@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc6a6bb2ded8d4c13b04b158ef03fc0b, type: 3}
+  m_Name: pumpkin_hat
+  m_EditorClassIdentifier: MHK.Runtime::MHK.Modding.CosmeticDefinition
+  id: mhk2.cosmetic.pumpkin_hat
+  displayName: Pumpkin Hat
+  sourceGame: mhk2
+  icon: {fileID: 2800000, guid: 5168338cc684649f39d23c227531039f, type: 3}
+  hidden: 0
+  slot: 0
+  prefab: {fileID: 2185760693282781922, guid: 128a6b354b59149caaf9300a27abb5f1, type: 3}
+  offset: {x: 0.0006, y: -0.0707, z: -0.0437}
+  fitWidth: 0.4458
+  tintable: 1
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  unlockAchievement: 

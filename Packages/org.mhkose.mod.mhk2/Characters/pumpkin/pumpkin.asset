@@ -20,11 +20,16 @@ MonoBehaviour:
   driverPrefab: {fileID: 2692616885294604161, guid: 87941d31dc0004ca9a57b231d78b00f4, type: 3}
   modelScale: 1
   portrait: {fileID: 2800000, guid: f09e6c97313d14137b68b6da4f09b645, type: 3}
+  ownCosmetics:
+  - {fileID: 11400000, guid: 0aca078adaae241db8f947f49aed97d8, type: 2}
   handReach: 0.25
   seatOffset: {x: 0, y: 0, z: 0}
   racesWithoutKart: 0
   noKartOffset: {x: 0, y: 0, z: 0}
   noKartScale: 1
+  noKartMounts:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
   defaultKart: {fileID: 11400000, guid: b53c85f6e90f04a71a565e26f93fc794, type: 2}
   specialPowerup: {fileID: 11400000, guid: 17bb7a398480d4cb2bf99f85039e1c75, type: 2}
   animations:

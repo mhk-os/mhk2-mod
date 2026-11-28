@@ -122,6 +122,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 110e4b10839c24ff99fed1b28906e089, type: 2}
   - {fileID: 11400000, guid: b6053eb972a774517a8f5c30c3423a06, type: 2}
   - {fileID: 11400000, guid: a813b7bd270b242a7886f1fc081177bc, type: 2}
+  - {fileID: 11400000, guid: 0aca078adaae241db8f947f49aed97d8, type: 2}
+  - {fileID: 11400000, guid: d6958b7a7b7cd41aaa8b042755e730ed, type: 2}
   sdkApi: 0
   sdkVersion: 
   unityVersion: 
